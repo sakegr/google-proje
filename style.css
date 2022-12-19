@@ -1,0 +1,195 @@
+* {
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  font-size: 1rem;
+  padding: 15px 15px 0 15px;
+  width: auto;
+  height: 50px;
+}
+
+header a {
+  color: rgb(105, 102, 102);
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+  color: rgb(12, 12, 12);
+}
+
+button {
+  width: 70px;
+  height: 30px;
+  color: white;
+  background-color: rgb(66, 133, 244);
+  border-style: none;
+  border-radius: 2px;
+  align-items: center;
+  display: inline-block;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  box-shadow: 0.2px 0.3px black;
+}
+
+.sol {
+  vertical-align: middle;
+  padding-left: 10px;
+  margin-top: 5px;
+  /* width: auto; */
+  /* height: 18px; */
+  /* display: block; */
+  float: left;
+}
+
+.sag {
+  vertical-align: middle;
+  /* width: auto; */
+  /* height: 33px; */
+  /* margin: 0 25px 0 0; */
+  /* display: block; */
+  float: right;
+}
+
+.kutu {
+  vertical-align: middle;
+}
+
+.kutu:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.link {
+  padding-right: 10px;
+}
+
+.ortası {
+  margin: auto;
+  text-align: center;
+}
+
+.foto {
+  margin-top: 100px;
+}
+
+.search {
+  /* position: absolute; */
+  margin-top: 10px;
+  /* margin-left: 32%; */
+  /* margin-right: 500px; */
+  border: 1px solid rgb(13, 13, 13, 0.1);
+  width: 500px;
+  height: 42px;
+  background-color: transparent;
+  border-radius: 50px;
+}
+
+.mercek {
+  float: left;
+  margin-left: 10px;
+  background-color: transparent;
+  width: 6%;
+}
+
+.mikrofon {
+  margin-top: 5px;
+  margin-right: 15px;
+  float: right;
+  width: 3%;
+}
+
+.alt-buton * {
+  background-color: rgb(229, 227, 227);
+  border-style: none;
+  border-radius: 5px;
+  width: 110px;
+  height: 35px;
+  color: rgb(0, 0, 0, 0.6);
+}
+
+.alt-buton {
+  margin-top: 10px;
+  /* margin-left: 41%; */
+}
+
+.feel {
+  margin-left: 5px;
+}
+
+.gs:hover,
+.feel:hover {
+  color: black;
+  /* box-shadow: 0.3px 0.3px black; */
+  border-radius: 1px solid black;
+}
+
+.metin {
+  margin-top: 10px;
+  /* margin-left: 40.5%; */
+}
+
+.metin * {
+  font-size: 12px;
+}
+
+.metin p a:active {
+  color: black;
+}
+
+.first-foot {
+  /* display: flex; */
+  border-bottom: 1px solid black;
+  background-color: rgb(229, 227, 227);
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  bottom: 0;
+  text-decoration: none;
+  /* margin-top: 10.6%; */
+}
+
+.turkey {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.sola {
+  float: left;
+}
+
+.saga {
+  float: right;
+  margin-right: 10px;
+}
+
+.son-foot {
+  /* border-bottom: 1px solid black; */
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.ortak {
+  color: rgb(0, 0, 0, 0.6);
+  text-decoration: none;
+  padding: 10px;
+}
+
+.ortak:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: black;
+}
